@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right, #348ad6, #a2c2f1);  /* Gradient from blue to light blue */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Container for the form */
+.form-container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  color: #36137c;  /* Green color for the heading */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the form inputs */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #2196F3;  /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(33, 150, 243, 0.5);
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: #3d0d74;  /* Green button */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+/* Success and error message styling */
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.success {
+  color: #4CAF50;  /* Green for success messages */
+}
+
+p.error {
+  color: #F44336;  /* Red for error messages */
+}
+
+/* Optional styling for the bookings display table */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #2196F3;  /* Blue header row */
+  color: white;
+}
+
+table td {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
